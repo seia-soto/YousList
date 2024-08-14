@@ -46771,6 +46771,19 @@
                 }
             },
             {
+                "id": "a984ef81-72de-4ef8-8975-510def91d434",
+                "name": "pay.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pay\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "[class^=\"BottomAds_article\"],[class^=\"SmartChannel_article\"]"
+                    }
+                }
+            },
+            {
                 "id": "0f18d81c-0657-48e7-90fc-60d71bbd0df4",
                 "name": "pcgamer.com##",
                 "content": {
